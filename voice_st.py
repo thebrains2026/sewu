@@ -65,7 +65,7 @@ def TTS(response):
 def main():
     # 기본 설정
     st.set_page_config(
-        page_title="민정 프렌드 프로그램",
+        page_title="프렌드 프로그램",
         layout="wide")
 
     # session state 초기화
@@ -86,10 +86,10 @@ def main():
     st.markdown("---")
 
     # 기본 설명
-    with st.expander("민정 프렌드 프로그램에 관하여", expanded=True):
+    with st.expander("프렌드 프로그램에 관하여", expanded=True):
         st.write(
         """     
-        - 민정 프렌드 프로그램의 UI는 스트림릿을 활용했습니다.
+        - 프렌드 프로그램의 UI는 스트림릿을 활용했습니다.
         - STT(Speech-To-Text)는 OpenAI의 Whisper AI를 활용했습니다. 
         - 답변은 OpenAI의 GPT 모델을 활용했습니다. 
         - TTS(Text-To-Speech)는 구글의 Google Translate TTS를 활용했습니다.
